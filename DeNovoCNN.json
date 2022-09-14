@@ -1,0 +1,31 @@
+
+{
+  "DeNovoCNN.CHILD_BAM": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-1.recaled.chr22.bam",
+  "DeNovoCNN.CHILD_BAM_INDEX": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-1.recaled.chr22.bam.bai",
+  "DeNovoCNN.CHILD_VCF": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-1.chr22.recode.vcf",
+  
+  "DeNovoCNN.FATHER_BAM": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-2.recaled.chr22.bam",
+  "DeNovoCNN.FATHER_BAM_INDEX": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-2.recaled.chr22.bam.bai",
+  "DeNovoCNN.FATHER_VCF": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-2.chr22.recode.vcf",
+  
+  "DeNovoCNN.MOTHER_BAM": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-3.recaled.chr22.bam",
+  "DeNovoCNN.MOTHER_BAM_INDEX": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-3.recaled.chr22.bam.bai",
+  "DeNovoCNN.MOTHER_VCF": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData//HCC-004-3.chr22.recode.vcf",
+  
+  "DeNovoCNN.OUTFILE_NAME": "Test",
+
+  "DeNovoCNN.INSERTION_MODEL": "/app/models/ins",
+  "DeNovoCNN.DELETION_MODEL": "/app/models/del",
+  "DeNovoCNN.SNP_MODEL": "/app/models/snp",
+  
+  "DeNovoCNN.DISK": "100",
+  "DeNovoCNN.NUM_THREAD": "10",
+  "DeNovoCNN.MEMORY": "50",
+  "DeNovoCNN.docker": "registry.miracle.ac.cn/broad/denovocnn:latest",
+  
+  
+  "DeNovoCNN.WORKING_DIRECTORY": ".",
+  "DeNovoCNN.REFERENCE_GENOME": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData/Homo_sapiens_assembly38.fasta",
+  "DeNovoCNN.REFERENCE_GENOME_INDEX": "s3://gznl-open-data-references/GZ_testdata/DenovoCNN_TestData/Homo_sapiens_assembly38.fasta.fai"
+}
+
