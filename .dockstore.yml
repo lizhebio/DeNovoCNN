@@ -1,11 +1,12 @@
 version: 1.2
 workflows:
   - name: DeNovoCNN
-  - subclass: WDL
+    subclass: WDL
     primaryDescriptorPath: /DeNovoCNN.wdl
-    testParameterFiles: 
+    testParameterFiles:
       -/DeNovoCNN.json
     readMePath: https://github.com/lizhebio/DeNovoCNN/blob/master/README.md
     authors:
       - orcid: 0000-0002-5151-6109
+
 
