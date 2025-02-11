@@ -3,7 +3,8 @@ workflows:
   - name: DeNovoCNN
   - subclass: WDL
     primaryDescriptorPath: /DeNovoCNN.wdl
-    testParameterFiles: /DeNovoCNN.json
+    testParameterFiles: 
+      -/DeNovoCNN.json
     readMePath: https://github.com/lizhebio/DeNovoCNN/blob/master/README.md
     authors:
       - orcid: 0000-0002-5151-6109
