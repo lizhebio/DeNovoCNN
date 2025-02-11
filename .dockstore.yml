@@ -1,10 +1,16 @@
 version: 1.2
 workflows:
+  - name: DeNovoCNN
   - subclass: WDL
-    primaryDescriptorPath: 
-      - ./DeNovoCNN.wdl
-    testParameterFiles:
-      - ./DeNovoCNN.json
+    primaryDescriptorPath: /DeNovoCNN.wdl
+    testParameterFiles: /DeNovoCNN.json
+    readMePath: https://github.com/lizhebio/DeNovoCNN/blob/master/README.md
+    authors:
+      - orcid: 0000-0002-5151-6109
+  - name: DeNovoCNN-split
+  - subclass: WDL
+    primaryDescriptorPath: /DeNovoCNN_Split.wdl
+    testParameterFiles: /DeNovoCNN_Split.json
     readMePath: https://github.com/lizhebio/DeNovoCNN/blob/master/README.md
     authors:
       - orcid: 0000-0002-5151-6109
