@@ -3,10 +3,8 @@ workflows:
   - subclass: WDL
     primaryDescriptorPath: 
       - ./DeNovoCNN.wdl
-      - ./DeNovoCNN_Split.wdl
     testParameterFiles:
       - ./DeNovoCNN.json
-      - ./DeNovoCNN_Split.json
     readMePath: https://github.com/lizhebio/DeNovoCNN/blob/master/README.md
     authors:
       - orcid: 0000-0002-5151-6109
