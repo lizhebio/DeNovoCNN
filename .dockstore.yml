@@ -7,5 +7,5 @@ workflows:
       - /DeNovoCNN.json
     readMePath: /README.md
     authors:
-      - orcid: https://orcid.org/0000-0002-5151-6109
+      - orcid: 0000-0002-5151-6109
 
